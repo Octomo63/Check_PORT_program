@@ -5,7 +5,7 @@ $host_num = 1;
 $ports = array(21, 25, 80, 81, 110, 135, 139, 143, 443, 445,  587, 2525, 3306, 9000);
 $network = "172.19.172.";
 
-for ($i = 0; $i <= 9; $i++) 
+for ($i = 0; $i <= 255; $i++) 
 {
     $count = 0;
     $host = $network.(string)$host_num;
